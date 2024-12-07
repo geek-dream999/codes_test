@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a80e60b-6aaf-45b4-ae83-5c66d34818f3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../go" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../go/src/net/smtp/auth.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../project/pkg/mod/github.com/jordan-wright/email@v4.0.1-0.20210109023952-943e75fe5223+incompatible/email.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../project/pkg/mod/gocv.io/x/gocv@v0.39.0/calib3d_string.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../project/pkg/mod/gocv.io/x/gocv@v0.39.0/core_string.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../project/pkg/mod/gocv.io/x/gocv@v0.39.0/objdetect.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2j5FnfyHHDoAmaoqqvUJRUjPGAQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Docker.python/Dockerfile.executor": "Run",
+    "Go Build.go build codes.executor": "Debug",
+    "Go Test.TestCtx in codes/ctx.executor": "Debug",
+    "Go Test.TestFace in codes/real_face (1).executor": "Run",
+    "Go Test.TestFace in codes/real_face.executor": "Debug",
+    "Go Test.TestQrCode in codes/qr_code.executor": "Debug",
+    "Go Test.TestQrCode1 in codes/qr_code.executor": "Debug",
+    "Go Test.TestQrCode2 in codes/qr_code.executor": "Debug",
+    "Go Test.TestSelect in codes/go_basic.executor": "Debug",
+    "Go Test.TestSend in codes/email.executor": "Debug",
+    "Go Test.TestSlice in codes/go_basic.executor": "Debug",
+    "Go Test.TestSlice2 in codes/go_basic.executor": "Run",
+    "Go Test.TestSlice3 in codes/go_basic.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/software/go/codes/test/qr_code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\go\codes\test\qr_code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software\go\codes\test\python" />
+      <recent name="D:\software\go\codes\test\qr_code\img" />
+      <recent name="D:\software\go\codes\test\qr_code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build codes">
+    <configuration name="go build codes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <package value="codes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/test/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSelect in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <working_directory value="$PROJECT_DIR$/test/go_basic" />
+      <root_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <package value="codes/go_basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSelect\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSlice in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <working_directory value="$PROJECT_DIR$/test/go_basic" />
+      <root_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <package value="codes/go_basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSlice\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSlice2 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <working_directory value="$PROJECT_DIR$/test/go_basic" />
+      <root_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <package value="codes/go_basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSlice2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSlice3 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <working_directory value="$PROJECT_DIR$/test/go_basic" />
+      <root_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <package value="codes/go_basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSlice3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build codes" />
+        <item itemvalue="Go Test.TestSlice3 in codes/go_basic" />
+        <item itemvalue="Go Test.TestSlice2 in codes/go_basic" />
+        <item itemvalue="Go Test.TestSlice in codes/go_basic" />
+        <item itemvalue="Go Test.TestSelect in codes/go_basic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.18034.61" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.18034.61" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/qr_code/qr_test.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/real_face/face_test.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/real_face/face_test.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
