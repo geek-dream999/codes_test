@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a80e60b-6aaf-45b4-ae83-5c66d34818f3" name="Changes" comment="" />
+    <list default="true" id="3a80e60b-6aaf-45b4-ae83-5c66d34818f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test/go_basic/defer_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/html/card3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/html/card2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/html/fish.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,9 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../go/src/net/smtp/auth.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../project/pkg/mod/github.com/jordan-wright/email@v4.0.1-0.20210109023952-943e75fe5223+incompatible/email.go" root0="SKIP_INSPECTION" />
@@ -58,6 +66,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "D:/software/go/codes/test/qr_code",
     "node.js.detected.package.eslint": "true",

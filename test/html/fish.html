@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我是小鱼干</title>
+<!--    <link rel="icon" type="image/x-icon" href="https://www.xiaohongshu.com.yahuihui.cn/card/background/favicon.ico">-->
+    <link rel="icon" type="image/x-icon" href="https://www.xiaohongshu.com.yahuihui.cn/card/background/favicon_yu.ico">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url(https://www.xiaohongshu.com.yahuihui.cn/card/background/fish1.jpg) no-repeat center center;
+            background-size: cover; /* 背景图片自适应屏幕 */
+            color: #fff; /* 设置文字颜色为白色 */
+            text-align: center;
+            padding: 0 20px;
+        }
+        h1 {
+            font-size: 36px; /* 标题字体更大 */
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px; /* 字体大小增大 */
+            margin: 10px 0;
+        }
+        a {
+            color: #00bcd4; /* 设置链接颜色 */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .hidden {
+            display: none;
+        }
+        .qr-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .qr-container img {
+            max-width: 220px;
+            height: auto;
+            border: 3px solid #fff; /* 二维码边框 */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 添加二维码阴影效果 */
+        }
+        /* 按钮样式 */
+        .btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 18px;
+            background-color: #00bcd4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0097a7;
+        }
+    </style>
+</head>
+<body>
+<h1>正在跳转到微信...</h1>
+<p>如果没有跳转，请<a href="weixin://dl/chat?https://www.xiaohongshu.com.yahuihui.cn/card/wchat/yugan.jpg">点击这里</a>。</p>
+
+<!-- 二维码容器 -->
+<div id="qrCode" class="qr-container hidden">
+    <p>保存并扫描二维码添加我的微信：</p>
+    <img src="https://www.xiaohongshu.com.yahuihui.cn/card/wchat/yugan.jpg" alt="微信二维码">
+</div>
+
+<script>
+    // 跳转到微信
+    setTimeout(() => {
+        window.location.href = "weixin://dl/chat?https://www.xiaohongshu.com.yahuihui.cn/card/wchat/yugan.jpg";
+    }, 3000); // 3秒后跳转
+
+    // 延迟显示二维码
+    setTimeout(() => {
+        const qrContainer = document.getElementById('qrCode');
+        qrContainer.classList.remove('hidden'); // 显示二维码
+    }, 4000); // 4秒后显示二维码
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转到微信并展示二维码</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #1aad19;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #148e14;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>扫描二维码以加入微信</h1>
+    <img src="https://image.yahuihui.cn/my/my.jpg" alt="微信二维码">
+    <p>长按二维码图片以识别</p>
+    <a class="button" href="weixin://dl/scan">打开微信扫描</a>
+</div>
+</body>
+</html>
