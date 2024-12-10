@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a80e60b-6aaf-45b4-ae83-5c66d34818f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/go_basic/defer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/html/card3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/go_basic/range_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/html/card2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/html/fish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/go_basic/chan_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/go_basic/chan_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/go_basic/defer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/go_basic/defer_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,37 +45,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Docker.python/Dockerfile.executor": "Run",
-    "Go Build.go build codes.executor": "Debug",
-    "Go Test.TestCtx in codes/ctx.executor": "Debug",
-    "Go Test.TestFace in codes/real_face (1).executor": "Run",
-    "Go Test.TestFace in codes/real_face.executor": "Debug",
-    "Go Test.TestQrCode in codes/qr_code.executor": "Debug",
-    "Go Test.TestQrCode1 in codes/qr_code.executor": "Debug",
-    "Go Test.TestQrCode2 in codes/qr_code.executor": "Debug",
-    "Go Test.TestSelect in codes/go_basic.executor": "Debug",
-    "Go Test.TestSend in codes/email.executor": "Debug",
-    "Go Test.TestSlice in codes/go_basic.executor": "Debug",
-    "Go Test.TestSlice2 in codes/go_basic.executor": "Run",
-    "Go Test.TestSlice3 in codes/go_basic.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/software/go/codes/test/qr_code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Docker.python/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build codes.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestCtx in codes/ctx.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestDefer in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestDeferFuncParameter in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestDeferFuncReturn in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestDeferReturn in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestDeferReturn1 in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestDeferReturn2 in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestFace in codes/real_face (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestFace in codes/real_face.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestQrCode in codes/qr_code.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestQrCode1 in codes/qr_code.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestQrCode2 in codes/qr_code.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSelect in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSelect1 in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSelect2 in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSelect3 in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSelect4 in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSend in codes/email.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSlice in codes/go_basic.executor&quot;: &quot;Debug&quot;,
+    &quot;Go Test.TestSlice2 in codes/go_basic.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestSlice3 in codes/go_basic.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/software/go/codes/test/qr_code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\software\go\codes\test\qr_code" />
@@ -86,17 +96,8 @@
       <recent name="D:\software\go\codes\test\qr_code" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build codes">
-    <configuration name="go build codes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="codes" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <kind value="PACKAGE" />
-      <package value="codes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/test/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSelect in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSelect4 in codes/go_basic">
+    <configuration name="TestDeferReturn in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <working_directory value="$PROJECT_DIR$/test/go_basic" />
       <root_directory value="$PROJECT_DIR$/test" />
@@ -105,10 +106,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSelect\E$" />
+      <pattern value="^\QTestDeferReturn\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSlice in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelect1 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <working_directory value="$PROJECT_DIR$/test/go_basic" />
       <root_directory value="$PROJECT_DIR$/test" />
@@ -117,10 +118,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSlice\E$" />
+      <pattern value="^\QTestSelect1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSlice2 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelect2 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <working_directory value="$PROJECT_DIR$/test/go_basic" />
       <root_directory value="$PROJECT_DIR$/test" />
@@ -129,10 +130,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSlice2\E$" />
+      <pattern value="^\QTestSelect2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSlice3 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelect3 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="codes" />
       <working_directory value="$PROJECT_DIR$/test/go_basic" />
       <root_directory value="$PROJECT_DIR$/test" />
@@ -141,7 +142,19 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSlice3\E$" />
+      <pattern value="^\QTestSelect3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSelect4 in codes/go_basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="codes" />
+      <working_directory value="$PROJECT_DIR$/test/go_basic" />
+      <root_directory value="$PROJECT_DIR$/test" />
+      <kind value="PACKAGE" />
+      <package value="codes/go_basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSelect4\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
@@ -152,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build codes" />
-        <item itemvalue="Go Test.TestSlice3 in codes/go_basic" />
-        <item itemvalue="Go Test.TestSlice2 in codes/go_basic" />
-        <item itemvalue="Go Test.TestSlice in codes/go_basic" />
-        <item itemvalue="Go Test.TestSelect in codes/go_basic" />
+        <item itemvalue="Go Test.TestSelect4 in codes/go_basic" />
+        <item itemvalue="Go Test.TestSelect3 in codes/go_basic" />
+        <item itemvalue="Go Test.TestSelect1 in codes/go_basic" />
+        <item itemvalue="Go Test.TestSelect2 in codes/go_basic" />
+        <item itemvalue="Go Test.TestDeferReturn in codes/go_basic" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +205,21 @@
           <url>file://$PROJECT_DIR$/test/real_face/face_test.go</url>
           <line>10</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/go_basic/select_test.go</url>
+          <line>83</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/go_basic/select_test.go</url>
+          <line>74</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/test/go_basic/select_test.go</url>
+          <line>91</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
